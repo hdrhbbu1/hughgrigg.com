@@ -1,0 +1,21 @@
+body {
+    font-family: $body-font;
+    background-color: $neutral-colour;
+    background-image: url(/assets/img/ps_neutral.png);
+    font-size: 16px;
+    color: $text-colour;
+}
+
+a {
+    color: $brand-colour;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    &:hover {
+        color: darken($brand-colour, 25%);
+    }
+    &:visited {
+        color: $contrast-colour;
+        &:hover {
+            color: darken($contrast-colour, 25%);
+        }
+    }
+}
