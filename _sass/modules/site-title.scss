@@ -1,11 +1,12 @@
 .site-title {
-    font-size: 230%;
-    margin: 0.25em 0;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
     text-shadow: $engrave;
     > a {
         text-decoration: none;
         &:visited {
-            color: $brand-colour;
+            color: #fff;
         }
     }
 }
