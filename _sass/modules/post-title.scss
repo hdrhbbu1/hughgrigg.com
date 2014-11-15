@@ -1,0 +1,6 @@
+.post-title {
+    font-size: 35px;
+    @include breakpoint(small) {
+        font-size: 28px;
+    }
+}
