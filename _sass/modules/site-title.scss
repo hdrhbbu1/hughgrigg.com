@@ -2,11 +2,13 @@
     font-size: 200%;
     margin: 0;
     text-align: center;
-    text-shadow: $engrave;
     > a {
         text-decoration: none;
         &:visited {
             color: #fff;
         }
+    }
+    @include breakpoint(small) {
+        font-size: 150%;
     }
 }

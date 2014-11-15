@@ -2,4 +2,7 @@
     background-color: $brand-colour;
     color: #fff;
     padding: 2em;
+    @include breakpoint(small) {
+        padding: 1.5em;
+    }
 }

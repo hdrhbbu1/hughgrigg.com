@@ -37,10 +37,15 @@
     color: #fff;
     text-decoration: none;
     font-size: 123%;
+    font-family: $title-font;
+    font-weight: bolder;
     &:visited {
         color: #fff;
     }
     &:hover {
         color: $text-colour;
+    }
+    @include breakpoint(small) {
+        font-size: 100%;
     }
 }
