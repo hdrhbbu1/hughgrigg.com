@@ -1,0 +1,12 @@
+<hr>
+
+<p class="footer-date">
+    {% if page.title %}
+        {{ page.date | date: "%c" }}
+    {% endif %}
+</p>
+
+<p class="rss-subscribe">
+    Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>, 
+    if you like.
+</p>
