@@ -1,0 +1,14 @@
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list-link {
+    font-weight: bolder;
+    font-size: 120%;
+    margin-right: 1em;
+}
+
+.post-link-meta {
+    color: lighten($text-colour, 20%);
+}
