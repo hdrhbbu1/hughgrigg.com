@@ -11,3 +11,7 @@ github_username:  hughgrigg
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+gems:
+  - jekyll-sitemap
