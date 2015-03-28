@@ -1,0 +1,32 @@
+{
+  "name": "chineseboost-articles",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "concurrent-transform": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-awspublish": "*",
+    "gulp-css-validator": "*",
+    "gulp-csslint": "*",
+    "gulp-filter": "*",
+    "gulp-htmlhint": "*",
+    "gulp-htmlmin": "*",
+    "gulp-htmltidy": "*",
+    "gulp-imagemin": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-sass": "*",
+    "gulp-save": "*",
+    "gulp-scss-lint": "*",
+    "gulp-shell": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-watch": "*",
+    "imagemin-pngquant": "*",
+    "merge-stream": "*",
+    "node-sass": "*",
+    "run-sequence": "*"
+  }
+}

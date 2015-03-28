@@ -1,0 +1,23 @@
+{{ partial "start.html" . }}
+
+<article class="post-content">
+
+  <header class="post-header">
+
+    <h1 class="post-title">{{ .Title }}</h1>
+
+    <p class="post-meta">
+        <span class="post-date">
+        </span>
+    </p>
+
+  </header>
+
+  <article class="post-content">
+  {{ .Content }}
+  </article>
+
+</article>
+
+
+{{ partial "end.html" . }}
