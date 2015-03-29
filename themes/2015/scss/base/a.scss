@@ -1,14 +1,17 @@
 a {
-    font-weight: bolder;
-    color: $brand-colour;
-    transition: background-color 0.3s ease, color 0.3s ease;
+  color: $brand-colour;
+  font-weight: bolder;
+  transition: background-color .3s ease, color .3s ease;
+
+  &:hover {
+    color: darken($brand-colour, 25%);
+  }
+
+  &:visited {
+    color: $contrast-colour;
+
     &:hover {
-        color: darken($brand-colour, 25%);
+      color: darken($contrast-colour, 25%);
     }
-    &:visited {
-        color: $contrast-colour;
-        &:hover {
-            color: darken($contrast-colour, 25%);
-        }
-    }
+  }
 }

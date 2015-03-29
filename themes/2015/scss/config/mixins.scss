@@ -1,21 +1,13 @@
 @mixin breakpoint($point) {
-    $small: "(max-width: 600px)";
-    $medium: "(max-width: 800px)";
-    $large: "(max-width: 1200px)";
-    @if $point == small {
-        @media #{$small} { @content; }
-    }
-    @else if $point == medium {
-        @media #{$medium} { @content; }
-    }
-    @else if $point == large {
-        @media #{$large}  { @content; }
-    }
-}
+  $small: '(max-width: 600px)';
+  $medium: '(max-width: 800px)';
+  $large: '(max-width: 1200px)';
 
-/**
- * Usage:
-    @include breakpoint(small) {
-        width: 100%;
-    }
-*/
+  @if $point == small {
+    @media #{$small} { @content; }
+  } @else if $point == medium {
+    @media #{$medium} { @content; }
+  } @else if $point == large {
+    @media #{$large}  { @content; }
+  }
+}
