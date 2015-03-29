@@ -7,8 +7,8 @@
     <h1 class="post-title">{{ .Title }}</h1>
 
     <p class="post-meta">
-        <span class="post-date">
-        </span>
+      {{ .Date.Format "2006-01-02 (Monday)" }} |
+      {{ .FuzzyWordCount }} words (~{{ .ReadingTime }} minutes)
     </p>
 
   </header>
