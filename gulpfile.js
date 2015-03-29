@@ -75,8 +75,8 @@ gulp.task('check-html', function() {
 
 gulp.task('check', ['check-scss', 'check-css', 'check-html']);
 
-gulp.task('theme-imagemin', function() {
-  return gulp.src('./themes/2015/static/**/*.*')
+gulp.task('imagemin', function() {
+  return gulp.src('./static/img/**/*.*')
     .pipe(imagemin({
         progressive: true,
         svgoPlugins: [{removeViewBox: false}],
@@ -84,7 +84,19 @@ gulp.task('theme-imagemin', function() {
         optimizationLevel: 7,
         interlaced: true
     }))
-    .pipe(gulp.dest('./themes/2015/static/'));
+    .pipe(gulp.dest('./static/img/'));
+});
+
+gulp.task('theme-imagemin', function() {
+  return gulp.src('./themes/2015/static/img/**/*.*')
+    .pipe(imagemin({
+        progressive: true,
+        svgoPlugins: [{removeViewBox: false}],
+        use: [pngquant()],
+        optimizationLevel: 7,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('./themes/2015/static/img/'));
 });
 
 gulp.task('watch', function() {
@@ -98,7 +110,7 @@ gulp.task('write-publish', ['style'], shell.task(
   'hugo --config=config.yaml --theme=2015 --destination=./publish/;'
 ));
 
-gulp.task('prepare-publish', ['theme-imagemin', 'write-publish'], function(callback) {
+gulp.task('prepare-publish', ['imagemin', 'theme-imagemin', 'write-publish'], function(callback) {
   runSequence(['post-process-css', 'post-process-html'], callback);
 });
 
