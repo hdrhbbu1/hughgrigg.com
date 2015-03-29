@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"fi",
+				"font-size"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"fonty",
+				"font-family"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"imp",
 				"import	import (...) ʂ"
 			],
@@ -34,10 +54,6 @@
 			[
 				"b",
 				"bower_components"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"htmlhint",
@@ -90,10 +106,6 @@
 			[
 				"n",
 				"Now	time.Time ƒ"
-			],
-			[
-				"p",
-				"Pi	 Ɩ"
 			],
 			[
 				"fib",
@@ -223,6 +235,41 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Remote:   origin @ git@github.com:hughgrigg/hughgrigg.com.git\nLocal:    master ~/projects/sites/hughgrigg.com\nHead:     58aee60 \"Initial commit\" post\n\n\nUntracked files:\n	content/posts/2014/10/learning-vocabulary-on-the-commandline.md\n	content/posts/2014/12/\n	themes/2015/scss/modules/code.scss\n	themes/2015/scss/modules/highlight.scss\n	themes/2015/scss/modules/kbd.scss\n\nChanges:\n	Modified   config.yaml\n	Modified   content/posts/2014/10/initial-commit.md\n	Deleted    content/posts/2014/11/2014-11-30-c2-wiki.md\n	Deleted    content/posts/2014/11/2014-11-30-keyboard-only.md\n	Deleted    content/posts/2014/11/2014-11-30-not-an-expert.md\n	Modified   themes/2015/layouts/404.html\n	Modified   themes/2015/scss/config/variables.scss\n	Modified   themes/2015/scss/hg.scss\n	Modified   themes/2015/scss/vendor/google-fonts.scss\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 1581,
+				"line_ending": "Unix",
+				"name": "*git-status*: hughgrigg.com",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "content/posts/2014/10/learning-vocabulary-on-the-commandline.md",
+			"settings":
+			{
+				"buffer_size": 8019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/2015/scss/base/hr.scss",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/2015/scss/modules/post-title.scss",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -232,7 +279,7 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "",
+		"last_filter": "gp",
 		"selected_items":
 		[
 			[
@@ -301,13 +348,75 @@
 	},
 	"expanded_folders":
 	[
-		"/home/hugh/projects/sites/hughgrigg.com"
+		"/home/hugh/projects/sites/hughgrigg.com",
+		"/home/hugh/projects/sites/hughgrigg.com/content",
+		"/home/hugh/projects/sites/hughgrigg.com/content/pages",
+		"/home/hugh/projects/sites/hughgrigg.com/themes",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/base",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/config",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/layout",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/modules",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/vendor"
 	],
 	"file_history":
 	[
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/base/a.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/layout/layout.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/base/h.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/posts/single.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/base/body.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/config/mixins.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/layout/footer.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/modules/article.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/modules/highlight.scss",
+		"/home/hugh/.zshrc",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/modules/code.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/modules/kbd.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/config/variables.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/hg.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/vendor/google-fonts.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/config.yaml",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/404.html",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/10/initial-commit.md",
+		"/home/hugh/projects/sites/hughgrigg.com/publish/css/hg.css",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/vendor/pygments-monokai.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/.gitignore",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/static/css/hg.css",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/scss/modules/post-meta.scss",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-not-an-expert.md",
+		"/home/hugh/projects/sites/hughgrigg.com/layouts/.gitkeep",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/pages/single.html",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-c2-wiki.md",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-keyboard-only.md",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-null-object-pattern.md",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-sniffing-is-a-code-smell.md",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-splitting-classes.md",
+		"/home/hugh/projects/sites/hughgrigg.com/content/posts/2014/11/2014-11-30-terminator.md",
+		"/home/hugh/projects/sites/hughgrigg.com/hughgrigg.com.sublime-project",
+		"/home/hugh/projects/sites/hughgrigg.com/content/pages/work.md",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/pages/work.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/taxonomy/tag.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/_default/list.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/partials/end.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/_default/summary.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/_default/single.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/_default/post.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/partials/start.html",
+		"/home/hugh/projects/sites/hughgrigg.com/serve.sh",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/index.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/_default/page.html",
+		"/home/hugh/projects/sites/hughgrigg.com/package.json",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/partials/header.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/partials/nav.html",
+		"/home/hugh/projects/sites/hughgrigg.com/themes/2015/layouts/_default/default.html",
+		"/home/hugh/projects/sites/hughgrigg.com/gulpfile.js",
+		"/home/hugh/projects/sites/hughgrigg.com/content/pages/index.md",
+		"/home/hugh/todo.txt",
+		"/home/hugh/projects/sites/hughgrigg.com/CNAME",
 		"/home/hugh/projects/go/hughgrigg/chineseboost/app/user/user.go",
 		"/home/hugh/projects/go/hughgrigg/chineseboost/app/chineseboost.go",
-		"/home/hugh/.zshrc",
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/index/grammar.html",
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/page/sitemap.html",
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/taxonomy/pos.terms.html",
@@ -320,7 +429,6 @@
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/page-sections/header-end.html",
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/nodes/tags.html",
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/taxonomy/tag.terms.html",
-		"/home/hugh/todo.txt",
 		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/03/pengjian-yujian-jianmian-difference.md",
 		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2015/02/peng-pengjian-pengshang.md",
 		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/page-sections/footer.html",
@@ -381,62 +489,11 @@
 		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/ba-ma-sentence-particles.md",
 		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/ba-structure-usage-basics.md",
 		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/ba3-common-mistakes.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/ban-yi-ban-yi-ge-ban-difference.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/bang-and-bang-mang.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/beginners-basic-chinese-grammar.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/suo-structural-particle.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/03/bei-times-fold.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/03/gei3-directly-after-verb.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/03/suan-suanshang-suanle.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/03/zai4-after-the-verb.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/04/mei2-guan1xi-usage.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/04/zhong1yu2-zui4hou4-difference.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/06/de-after-adjectives.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/06/fang4jia4-vs-jia4qi1.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/06/hua2suan4-bargain.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/06/modifier-de-noun.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/06/ren2-vs-nan2ren2.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/07/jie4-jie4gei3-gen1-jie4.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/07/repeating-question-words.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/07/zhang3-zhang3de.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/08/gen1-ye3-difference.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/08/ma-ne.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/09/chu2le-yi3wai4.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/09/ma-obvious-self-evident.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/09/yao4shi-jiu4.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/10/guo4-past-experiences.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/12/xiang3-yao4-xiang3yao4-difference.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2014/01/dui4buqi3-qing3wen4-ma2fan-ni3-lao2jia.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2014/01/four-uses-cai2.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2014/02/dui4-gen1-prepositions.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2014/02/jia1yi3.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2014/02/yi3qian2-yi3hou4.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2014/03/basic-direction-complements-lai2-qu4.md",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/scss/modules/liju.scss",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/sidebars/modules/latest-articles.html",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/scss/modules/sidebar.scss",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/scss/modules/shortcodes.scss",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/_default/list.html",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/_default/section.html",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/taxonomy/guanjianci.terms.html",
-		"/home/hugh/projects/sites/chineseboost-articles/content/grammar/pages/sitemap.md",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/modules/related-articles.html",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/modules/related-articles/same-guanjianci.html",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/modules/related-articles/same-dengji.html",
-		"/home/hugh/projects/sites/chineseboost-articles/content/grammar/articles/2012/12/de-grammar-summary.md",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/nodes/guanjianci-characters.html",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/scss/modules/dengji.scss",
-		"/home/hugh/projects/sites/chineseboost-articles/content/grammar/articles/2014/02/dui4-gen1-prepositions.md",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/scss/base/hr.scss",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/layouts/partials/breadcrumbs/guanjianci.html",
-		"/home/hugh/projects/sites/chineseboost-articles/content/grammar/articles/2014/01/dui4buqi3-qing3wen4-ma2fan-ni3-lao2jia.md",
-		"/home/hugh/projects/sites/chineseboost-articles/themes/chineseboost/scss/modules/article-list.scss",
-		"/home/hugh/projects/sites/chineseboost-articles/content/grammar/articles/2014/02/jia1yi3.md",
-		"/home/hugh/projects/sites/chineseboost-articles/content/grammar/articles/2014/10/jie1-jie1dao4-answer-receive.md"
+		"/home/hugh/projects/sites/chineseboost-articles/content/articles/2013/01/ban-yi-ban-yi-ge-ban-difference.md"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -515,6 +572,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			",",
+			"\"",
+			"\n  ",
+			"\\",
+			"\\p{Han}",
+			":",
+			"codehilite",
+			" \\}",
+			" /\\*(.*?)\\*/",
+			"codehilite",
+			"\n'",
+			" }",
+			" /\\*(.*?)\\*/",
+			" /\\*(.*/)\\*/",
+			"/home/home",
+			"grammar",
+			"chineseboost-com",
+			").",
+			" \\n",
+			"sitemap",
+			"ul",
+			"\"",
+			"        ",
+			"    ",
+			"chineseboost",
+			"filter",
+			"save",
 			"</span>",
 			"class=\"icon",
 			"href=\"(.*?)(?!/)\"",
@@ -615,34 +699,7 @@
 			".Description",
 			"''",
 			"- [",
-			"- ",
-			"-",
-			"li>",
-			"span",
-			"{htmlhintrc: './htmlhintrc.json'}",
-			"htmlhint()",
-			";\n  :",
-			"}\n  :",
-			"    ",
-			", ",
-			"}\n  @",
-			"; ",
-			"}\n  h",
-			";\n  &",
-			";\n  @include",
-			":hover {",
-			"dengji-{{",
-			"dengji-",
-			"a.",
-			"}\na",
-			"i-C",
-			"i-B",
-			"i-A",
-			"0.",
-			"  :",
-			"\\n  :",
-			"article-card-{{",
-			"d-C"
+			"- "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -650,6 +707,10 @@
 		"regex": true,
 		"replace_history":
 		[
+			"; }",
+			"",
+			"\\n",
+			"  ",
 			" %}}",
 			"{{% ",
 			"",
@@ -760,8 +821,365 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"__vi_external_disable": true,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"draw_white_space": "none",
+							"git_repo": "/home/hugh/projects/sites/hughgrigg.com",
+							"git_status": true,
+							"git_view": "status",
+							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "content/posts/2014/10/learning-vocabulary-on-the-commandline.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4186,
+								4186
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"is_xml": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1479.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "themes/2015/scss/base/hr.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "themes/2015/scss/modules/post-title.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -828,7 +1246,7 @@
 	"project": "hughgrigg.com.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -837,6 +1255,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"hg.s",
+				"themes/2015/scss/hg.scss"
+			],
+			[
+				"end",
+				"themes/2015/layouts/partials/end.html"
+			],
 			[
 				"gulpf",
 				"gulpfile.js"
@@ -1340,14 +1766,6 @@
 			[
 				"terms.",
 				"themes/chineseboost/layouts/_default/terms.html"
-			],
-			[
-				"vba",
-				"themes/chineseboost/scss/config/variables.scss"
-			],
-			[
-				"card.",
-				"themes/chineseboost/scss/modules/cards/card.scss"
 			]
 		],
 		"width": 0.0
@@ -1378,7 +1796,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 285.0,
+	"side_bar_width": 432.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
