@@ -1,5 +1,6 @@
 ---
 title: Initial commit
+slug: initial-commit
 date: 2014-10-23
 ---
 
