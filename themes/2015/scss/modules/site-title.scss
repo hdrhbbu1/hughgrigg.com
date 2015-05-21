@@ -1,14 +1,19 @@
 .site-title {
-    font-size: 200%;
-    margin: 0;
-    text-align: center;
-    > a {
-        text-decoration: none;
-        &:visited {
-            color: #fff;
-        }
+  font-size: 200%;
+  margin: 0;
+  text-align: center;
+
+  @include breakpoint(small) {
+    font-size: 150%;
+  }
+
+  > a {
+    color: #fff;
+    text-decoration: none;
+
+    &:visited,
+    &:hover {
+      color: #fff;
     }
-    @include breakpoint(small) {
-        font-size: 150%;
-    }
+  }
 }
