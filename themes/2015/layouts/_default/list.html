@@ -10,7 +10,7 @@
 
   <article class="post-content">
     <ol reversed class="article-card-list">
-      {{ range .Data.Pages.ByDate.Reverse }}{{ .Render "summary" }}{{ end }}
+      {{ range .Data.Pages.ByDate.Reverse }}{{ .Title }}{{ end }}
     </ol>
   </article>
 
