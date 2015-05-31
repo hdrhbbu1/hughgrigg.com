@@ -10,7 +10,11 @@
 
   <article class="post-content">
     <ol reversed class="article-card-list">
-      {{ range .Data.Pages.ByDate.Reverse }}{{ .Title }}{{ end }}
+      {{ range .Data.Pages.ByDate.Reverse }}
+        <li>
+          <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
     </ol>
   </article>
 
