@@ -1,51 +1,60 @@
 .nav {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-    background: #fff;
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
+  background: #fff;
+  display: table;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+  width: 100%;
 }
 
 .nav-item {
-    display: table-cell;
-    text-align: center;
-    &:nth-child(3n+1) > a.nav-link {
-        background-color: $pastel-a;
-        &:hover {
-            background-color: darken($pastel-a, 10%);
-        }
+  display: table-cell;
+  text-align: center;
+
+  &:nth-child(3n+1) > .nav-link {
+    background-color: $pastel-a;
+
+    &:hover {
+      background-color: darken($pastel-a, 10%);
     }
-    &:nth-child(3n+2) > a.nav-link {
-        background-color: $pastel-b;
-        &:hover {
-            background-color: darken($pastel-b, 10%);
-        }
+  }
+
+  &:nth-child(3n+2) > .nav-link {
+    background-color: $pastel-b;
+
+    &:hover {
+      background-color: darken($pastel-b, 10%);
     }
-    &:nth-child(3n+3) > a {
-        background-color: $pastel-c;
-        &:hover {
-            background-color: darken($pastel-c, 10%);
-        }
+  }
+
+  &:nth-child(3n+3) > a {
+    background-color: $pastel-c;
+
+    &:hover {
+      background-color: darken($pastel-c, 10%);
     }
+  }
 }
 
 .nav-link {
-    display: block;
-    padding: 0.5em 0;
+  color: #fff;
+  display: block;
+  font-family: $title-font;
+  font-size: 123%;
+  font-weight: bolder;
+  padding: .5em 0;
+  text-decoration: none;
+
+  @include breakpoint(small) {
+    font-size: 100%;
+  }
+
+  &:visited {
     color: #fff;
-    text-decoration: none;
-    font-size: 123%;
-    font-family: $title-font;
-    font-weight: bolder;
-    &:visited {
-        color: #fff;
-    }
-    &:hover {
-        color: $text-colour;
-    }
-    @include breakpoint(small) {
-        font-size: 100%;
-    }
+  }
+
+  &:hover {
+    color: $text-colour;
+  }
 }
