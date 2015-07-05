@@ -5,5 +5,9 @@ blockquote {
   font-style: italic;
   line-height: 1.85;
   margin: auto;
-  padding: .2em 1.7em;
+  padding: .2em 0 .2em 1.7em;
+
+  @include breakpoint(small) {
+    padding-left: .9em;
+  }
 }
