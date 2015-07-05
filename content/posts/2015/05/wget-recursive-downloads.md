@@ -3,7 +3,7 @@ title: Using Wget for recursive downloads
 slug: wget-recursive-downloads
 date: 2015-05-31
 tags:
- - UNIX
+ - Unix
  - CLI
 ---
 
