@@ -1,6 +1,6 @@
 ---
-title: Improving Unix-foo with Anki
-slug: unix-foo-anki
+title: Improving Unix-fu with Anki
+slug: unix-fu-anki
 date: 2015-07-01
 tags:
  - Unix
