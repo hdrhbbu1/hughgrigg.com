@@ -27,6 +27,7 @@
     "imagemin-pngquant": "*",
     "merge-stream": "*",
     "node-sass": "*",
-    "run-sequence": "*"
+    "run-sequence": "*",
+    "es6-promise": "*"
   }
 }
