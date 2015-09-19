@@ -114,8 +114,10 @@ gulp.task('prepare-publish', ['imagemin', 'theme-imagemin', 'write-publish'], fu
   runSequence(['post-process-css', 'post-process-html'], callback);
 });
 
-gulp.task('publish', ['write-publish', 'prepare-publish', 'check'], function() {
-  var publisher = awspublish.create({bucket:'www.hughgrigg.com'}),
+gulp.task('publish', ['write-publish', 'prepare-publish'], function() {
+  var publisher = awspublish.create({
+    params: {Bucket:'www.hughgrigg.com'}
+  }),
     headers     = {'Cache-Control':'max-age=315360000, no-transform, public'};
   return gulp.src('./publish/**/*.*')
     .pipe(awspublish.gzip())

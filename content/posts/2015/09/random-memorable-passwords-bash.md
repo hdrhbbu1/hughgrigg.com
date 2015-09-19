@@ -106,5 +106,10 @@ QualifyLeechedSodas713
 I've got the command aliased to `mempass` and it's pretty handy.
 
 {{< highlight bash >}}
-alias mempass="shuf -n 3 /usr/share/dict/british-english | sed 's/./\u&/' | tr -cd '[A-Za-z]'; echo $(shuf -i0-999 -n 1)"
+alias mempass='shuf -n 3 /usr/share/dict/british-english | sed "s/./\u&/" | tr -cd "[A-Za-z]"; echo $(shuf -i0-999 -n 1)'
 {{< /highlight >}}
+
+Notice the single quotes around the whole alias with double quotes inside. If
+you do it the other way round, the `echo` command at the end is run once when
+assigning the alias, so you'd get the same digits at the end of every generated
+password.
