@@ -45,10 +45,11 @@ This part of the article felt most relevant to Magento's situation:
 When working with Magento, you come across so much code that the above quote
 applies to. A lot of it is genuinely bad without a good justification, but now
 I've come to appreciate that ugly code is sometimes like that for a reason. From
-that I have a new-found respect for Magento; all that ugliness is powering a
-large sector of ecommerce across the web in a wide variety of environments and
-situations, and generally doing quite a consistent job of it (I still can't
-bring myself to use the phrase 'good job' here).
+that I almost have a new-found respect for Magento (but not quite -- I would
+never choose to use it); all that ugliness is powering a large sector of
+ecommerce across the web in a wide variety of environments and situations, and
+generally doing quite a consistent job of it (I still can't bring myself to use
+the phrase 'good job' here).
 
 A large part of the frustration of working with Magento is the high level of
 abstraction it starts at before slowly extending its way down to actually doing

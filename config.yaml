@@ -4,7 +4,7 @@ baseurl: https://www.hughgrigg.com/
 languageCode: "en-gb"
 title: Hugh Grigg's Blog
 permalinks:
-    posts: /:slug/
+    posts: /:section/:slug/
     pages: /:slug/
 taxonomies:
   tag: tags
