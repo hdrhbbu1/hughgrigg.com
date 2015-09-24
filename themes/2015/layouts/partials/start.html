@@ -8,7 +8,12 @@
     <meta name="google-site-verification"
       content="0rA_sjn1T-GWDn4sROzkSl72lWZ3GHyktuaJO6WXh0Y" />
 
-    <title>{{ .Title }} | Hugh Grigg</title>
+    <title>
+      {{ .Title }}
+      {{ if not (in .Title "Hugh Grigg") }}| Hugh Grigg {{ end }}
+      | London Web Developer
+    </title>
+
     <meta name="description" content="{{ .Description }}">
 
     <link rel="stylesheet"
@@ -22,7 +27,7 @@
     <div class="header">
       <h2 class="site-title">
         <a href="/">
-          Hugh Grigg's blog
+          Hugh Grigg
         </a>
       </h2>
     </div>

@@ -2,7 +2,7 @@ contentdir: "content"
 publishdir: "publish/"
 baseurl: https://www.hughgrigg.com/
 languageCode: "en-gb"
-title: Hugh Grigg's Blog
+title: Hugh Grigg
 permalinks:
     posts: /:section/:slug/
     pages: /:slug/
