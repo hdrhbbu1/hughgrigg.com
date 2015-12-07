@@ -4,3 +4,7 @@ code {
   font-size: 90%;
   padding: .25em;
 }
+
+pre > code {
+  background-color: inherit;
+}
