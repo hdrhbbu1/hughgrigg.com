@@ -8,9 +8,9 @@ tags:
 
 I recently finished converting four of the websites I run from Wordpress to
 [Hugo](http://gohugo.io/) (my [original blog](https://eastasiastudent.net/), a
-[Chinese learning blog](http://blog.chineseboost.com/), a [Chinese grammar
-site](https://grammar.chineseboost.com/) and this blog), and hosting them with
-S3 and CloudFront.
+[Chinese learning blog](http://www.chineseboost.com/blog/), a [Chinese grammar
+site](https://www.chineseboost.com/grammar/) and this blog), and hosting them
+with S3 and CloudFront.
 
 It's been a great change to make and has improved everything from my workflow to
 loading times and hosting costs. I'd recommend anyone running blogs and other

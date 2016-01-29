@@ -9,7 +9,7 @@ tags:
 ---
 
 [Anki](http://ankisrs.net/) has helped me maintain and improve my
-[Chinese](https://blog.chineseboost.com) for years, but I've always been
+[Chinese](https://www.chineseboost.com/blog) for years, but I've always been
 intrigued by using it to develop other kinds of knowledge. At university I used
 it heavily for East Asian history, our modern Chinese literature course and
 classical Chinese. I've now started using it to improve my Unix command-line
