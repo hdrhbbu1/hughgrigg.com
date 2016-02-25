@@ -9,7 +9,12 @@
       content="0rA_sjn1T-GWDn4sROzkSl72lWZ3GHyktuaJO6WXh0Y" />
 
     <title>
-      {{ .Title }}
+      {{ with index $.Site.Data.capitalisation (.Title | lower) }}
+        {{ . }}
+      {{ else }}
+        {{ .Title }}
+      {{ end }}
+      
       {{ if not (in .Title "Hugh Grigg") }}| Hugh Grigg {{ end }}
       | London Web Developer
     </title>
@@ -17,7 +22,7 @@
     <meta name="description" content="{{ .Description }}">
 
     <link rel="stylesheet"
-      href="/css/hg.css">
+      href="/css/{{ index $.Site.Data.rev_manifest "hg.css" }}">
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" type="image/png" href="/img/favicon.png">
   </head>

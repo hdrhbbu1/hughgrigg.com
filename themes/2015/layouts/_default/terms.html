@@ -1,0 +1,23 @@
+{{ partial "start.html" . }}
+
+<article class="post-content">
+
+	<header class="post-header">
+
+    <h1 class="post-title">{{ .Title }}</h1>
+
+  </header>
+
+  {{ with .Data.Pages.ByDate.Reverse }}
+    <ol reversed>
+      {{ range . }}
+        <li>
+          <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+
+</article>
+
+{{ partial "end.html" . }}

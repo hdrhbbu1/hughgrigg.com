@@ -5,9 +5,11 @@ date: 2015-05-27
 tags:
  - programming
  - design
- - Magento
  - Joel on Software
  - Fog Creek
+tech:
+ - Magento
+ - PHP
 ---
 
 Before I really got into development, I went through the entire archive of [Joel

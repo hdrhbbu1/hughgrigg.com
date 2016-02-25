@@ -3,9 +3,13 @@ title: Improving Unix-fu with Anki
 slug: unix-fu-anki
 date: 2015-07-01
 tags:
- - Unix
  - CLI
  - Anki
+tech:
+ - Unix
+ - SQL
+ - bash
+ - JavaScript
 ---
 
 [Anki](http://ankisrs.net/) has helped me maintain and improve my

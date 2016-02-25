@@ -1,0 +1,59 @@
+{{ partial "start.html" . }}
+
+<article class="post-content">
+
+  {{ $.Scratch.Add "tech" .Title }}
+  {{ with index $.Site.Data.capitalisation (.Title | lower) }}
+    {{ $.Scratch.Set "tech" . }}
+  {{ end }}
+
+  <header class="post-header">
+
+    <h1 class="post-title">Tech: {{ $.Scratch.Get "tech" }}</h1>
+
+  </header>
+
+  {{ with where .Data.Pages.ByDate.Reverse "Section" "work" }}
+    <h2>Things I've worked on with {{ $.Scratch.Get "tech" }}</h2>
+    <ol reversed class="article-card-list">
+      {{ range . }}
+        <li>
+          <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+
+  {{ with where .Data.Pages.ByDate.Reverse "Section" "reading" }}
+    <h2>Things I've read involving {{ $.Scratch.Get "tech" }}</h2>
+    <ol reversed class="article-card-list">
+      {{ range . }}
+        <li>
+          <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+
+  {{ with where .Data.Pages.ByDate.Reverse "Section" "posts" }}
+    <h2>Posts I've written mentioning {{ $.Scratch.Get "tech" }}</h2>
+    <ol reversed class="article-card-list">
+      {{ range . }}
+        <li>
+          <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+
+  <br>
+
+  <p>
+    <a href="/tech/">
+      Other tech terms
+    </a>
+  </p>
+
+</article>
+
+{{ partial "end.html" . }}

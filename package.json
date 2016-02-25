@@ -2,7 +2,9 @@
   "name": "chineseboost-articles",
   "version": "0.0.2",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "gulp-rev": "^7.0.0"
+  },
   "devDependencies": {
     "concurrent-transform": "*",
     "gulp": "*",

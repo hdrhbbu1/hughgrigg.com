@@ -4,6 +4,8 @@ slug: observer-pattern-side-effects
 date: 2014-11-05
 tags:
  - programming
+tech:
+ - OOP
  - design patterns
 ---
 

@@ -2,8 +2,9 @@
 title: Making random memorable passwords with bash
 slug: random-memorable-passwords-bash
 date: 2015-09-17
-tags:
- - Unix
+tech:
+ - Linux
+ - Ubuntu
  - bash
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Validating URLs with the DOM
 date: 2015-10-05
-tags:
+tech:
  - Javascript
  - DOM
 ---

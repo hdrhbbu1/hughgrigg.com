@@ -5,6 +5,12 @@ date: 2015-05-31
 tags:
  - Unix
  - CLI
+tech:
+ - command line
+ - vim
+ - bash
+ - wget
+ - Linux
 ---
 
 I discovered the [VimCasts](http://vimcasts.org/) website recently and have been

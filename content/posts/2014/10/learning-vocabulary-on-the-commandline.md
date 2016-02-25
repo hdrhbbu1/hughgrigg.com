@@ -3,9 +3,11 @@ title: Learning vocabulary on the command line
 slug: learning-vocabulary-on-the-commandline
 date: 2014-10-23
 tags:
- - Learning
- - Command line
- - ZSH
+ - learning
+tech:
+ - zsh
+ - bash
+ - command line
 ---
 
 I like the idea of adding little bits of learning to my day that don't take

@@ -1,28 +1,28 @@
-var
-  gulp        = require('gulp'),
-  sass        = require('gulp-sass'),
-  sourcemaps  = require('gulp-sourcemaps'),
-  minifyCSS   = require('gulp-minify-css'),
-  autoprefix  = require('gulp-autoprefixer'),
+var gulp        = require('gulp');
+var sass        = require('gulp-sass');
+var sourcemaps  = require('gulp-sourcemaps');
+var minifyCSS   = require('gulp-minify-css');
+var autoprefix  = require('gulp-autoprefixer');
+var rev         = require('gulp-rev');
 
-  htmltidy    = require('gulp-htmltidy'),
-  htmlmin     = require('gulp-htmlmin'),
+var htmltidy    = require('gulp-htmltidy');
+var htmlmin     = require('gulp-htmlmin');
 
-  scsslint    = require('gulp-scss-lint'),
-  csslint     = require('gulp-csslint'),
-  htmlhint    = require('gulp-htmlhint'),
+var scsslint    = require('gulp-scss-lint');
+var csslint     = require('gulp-csslint');
+var htmlhint    = require('gulp-htmlhint');
 
-  imagemin    = require('gulp-imagemin'),
-  pngquant    = require('imagemin-pngquant'),
+var imagemin    = require('gulp-imagemin');
+var pngquant    = require('imagemin-pngquant');
 
-  merge       = require('merge-stream'),
+var merge       = require('merge-stream');
 
-  runSequence = require('run-sequence'),
+var runSequence = require('run-sequence');
 
-  shell       = require('gulp-shell'),
+var shell       = require('gulp-shell');
 
-  awspublish  = require('gulp-awspublish'),
-  parallelize = require('concurrent-transform');
+var awspublish  = require('gulp-awspublish');
+var parallelize = require('concurrent-transform');
 
 gulp.task('style', function() {
   return gulp.src('./themes/2015/scss/hg.scss')
@@ -34,8 +34,11 @@ gulp.task('style', function() {
       'aggressiveMerging': true,
       'keepBreaks': true
     }))
+    .pipe(rev())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./themes/2015/static/css'));
+    .pipe(gulp.dest('./themes/2015/static/css'))
+    .pipe(rev.manifest('rev_manifest.json'))
+    .pipe(gulp.dest('./themes/2015/data'));
 });
 
 gulp.task('post-process-css', function() {

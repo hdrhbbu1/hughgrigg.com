@@ -4,6 +4,13 @@ slug: gulp-asset-versioning-hugo-data-files
 date: 2015-05-23
 tags:
  - programming
+tech:
+ - Gulp
+ - Hugo
+ - JavaScript
+ - AWS
+ - S3
+ - CloudFront
 ---
 
 I recently finished converting four of the websites I run from Wordpress to

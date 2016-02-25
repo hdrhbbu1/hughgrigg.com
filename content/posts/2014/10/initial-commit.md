@@ -2,6 +2,11 @@
 title: Initial commit
 slug: initial-commit
 date: 2014-10-23
+tech:
+ - Hugo
+ - WordPress
+ - GitHub
+ - AWS
 ---
 
 This is the first post on my new blog. I'll be writing about various unrelated

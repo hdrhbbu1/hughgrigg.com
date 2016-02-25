@@ -1,11 +1,12 @@
-contentdir: "content"
-publishdir: "publish/"
+contentdir: content
+publishdir: publish/
 baseurl: https://www.hughgrigg.com/
-languageCode: "en-gb"
+languageCode: en-gb
 title: Hugh Grigg
 permalinks:
     posts: /:section/:slug/
     pages: /:slug/
 taxonomies:
   tag: tags
+  tech: tech
 pygmentsuseclasses: true

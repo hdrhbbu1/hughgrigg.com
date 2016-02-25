@@ -4,6 +4,9 @@ date: 2015-09-23
 tags:
  - design
  - testing
+tech:
+ - TDD
+ - testing
 ---
 
 There's a great [free ebook on test driven development](https://github.com
