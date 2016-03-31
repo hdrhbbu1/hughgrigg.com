@@ -70,20 +70,20 @@ covers the problems with the observer pattern better than I can, so I won't go
 into it here. I'm also far from the first person to consider this issue!
 
 I write on this blog to document and improve my learning, so I feel I should
-offer some suggestions to avoid this problem, despite not being any kind of
-expert in this.
+offer some suggestions to avoid this problem.
 
 What springs to mind is avoiding having events sprayed liberally across the
 system, and instead making them "explicit observed events". In other words, it
 should be as clear as possible that an event is going to be fired. Events on
 `save()` and `getFoo()` methods are ruled out. Perhaps there should be a
 separate `saveWithSideEffects()` method to advertise the fact that random things
-are going to happen.
+are going to happen. Alternatively, a distinction should be made between
+"observers" and "meddlers".
 
 To be honest, though, the approach that appeals most to me is having as small a
 system as possible that gets by with a minimum of code. This is as opposed to
 huge, monolithic boilerplate systems that encourage third-party extensions and
 so on. The abstractions in large, flexible systems are powerful, but so far in
 my journey with them it seems that all of that work going on behind the scenes
-often leads to tricky bugs and a lot fo time spent digging through unexplored
-territory in the code.
+often leads to tricky bugs and a lot of time spent digging through code that
+ought to have been unrelated.

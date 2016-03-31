@@ -4,9 +4,11 @@ baseurl: https://www.hughgrigg.com/
 languageCode: en-gb
 title: Hugh Grigg
 permalinks:
-    posts: /:section/:slug/
-    pages: /:slug/
+  posts: /:section/:slug/
+  reading: /:section/:slug/
+  work: /:section/:slug/
 taxonomies:
   tag: tags
   tech: tech
 pygmentsuseclasses: true
+pluralizelisttitles: false
