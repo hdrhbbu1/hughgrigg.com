@@ -11,4 +11,5 @@ taxonomies:
   tag: tags
   tech: tech
 pygmentsuseclasses: true
+PygmentsCodeFences: true
 pluralizelisttitles: false

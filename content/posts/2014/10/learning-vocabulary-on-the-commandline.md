@@ -5,9 +5,10 @@ date: 2014-10-23
 tags:
  - learning
 tech:
- - zsh
  - bash
  - command line
+ - Go
+ - zsh
 ---
 
 I like the idea of adding little bits of learning to my day that don't take
