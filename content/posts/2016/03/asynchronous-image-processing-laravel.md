@@ -2,7 +2,6 @@
 title: Optimised image handling with AWS and Laravel
 slug: optimised-image-handling-aws-laravel
 date: 2016-03-19
-draft: true
 tech:
  - AWS
  - Beanstalkd
@@ -25,7 +24,7 @@ This approach works fine, but has some problems:
  - It makes it harder to load balance between multiple application server
    instances.
  - It uses application server resources to serve images.
- - If the EC2 instance storing the images does down then the images may be lost.
+ - If the EC2 instance storing the images goes down then the images may be lost.
  - There are potential security issues around storing user-uploaded files on
    the application server.
 
@@ -87,10 +86,12 @@ And then in the image storage method, we can dispatch the event:
  */
 public function storeUploadedImage(UploadedFile $upload): Image
 {
-    $newImage = $this->imageResource->create([
+    $newImage = $this->imageResource->create(
+        [
         'filename' => uniqid().$upload->getClientOriginalName(),
-    ]);
-    $upload->move($newImage->directory(), $newImage->filename());
+        ]
+    );
+    $upload->move(storage_path('image'), $newImage->filename());
 
     $this->dispatcher->fire(new NewImageEvent($newImage));
 
@@ -106,13 +107,69 @@ way the user gets a good response time without waiting for the image to be
 processed and uploaded to S3. The queuing is handled by Beanstalkd in the
 development environment, and by SQS in production.
 
-The listener handles the new image event like this:
+## 2: Optimising images
+
+The first job of the new image listener is to optimise the new image. There's an
+`ImagePreProcessor` class with a collection of optimisers to do that, using
+_Imagick_ to make the changes to the image. The optimisers do things like strip
+meta-data, convert JPEGs to progressive, set the compression level and so on.
+
+One of the optimisers also generates a set of differently sized images, which
+allows adding a `srcset` attribute in the markup for each image. Browsers can
+then download the most appropriately sized version.
+
+Again, Laravel makes it easy to get that injected along with the other
+dependencies:
 
 {{< highlight php >}}
 <?php
-// TODO
+
+/**
+ * @param ImagePreProcessor $imagePreProcessor
+ * @param Filesystem        $publicFilesystem
+ * @param Config            $config
+ */
+public function __construct(
+    ImagePreProcessor $imagePreProcessor,
+    Filesystem $publicFilesystem,
+    Config $config
+) {
+    $this->imagePreProcessor = $imagePreProcessor;
+    $this->publicFilesystem = $publicFilesystem;
+    $this->config = $config;
+}
 {{< /highlight >}}
 
-## 2: Optimising images
-
 ## 3: Transferring to S3
+
+Finally, the new image listener needs to transfer the optimised image to an S3
+bucket, allowing it to be served quickly and cheaply. This can be done with
+Laravel's Filesystem implementation, using an S3 bucket in production and the
+local disk in the development environment.
+
+The resulting handler method looks like this:
+
+{{< highlight php >}}
+<?php
+
+/**
+ * @param NewImageEvent $event
+ */
+public function handle(NewImageEvent $event)
+{
+    if (!$this->storageImageFile($event->image())->isFile()) {
+        $event->image()->setAttribute('filename', '');
+        $event->image()->save();
+
+        return;
+    }
+
+    $this->imagePreProcessor->preProcess($event->image());
+    $this->transferImageFiles($event);
+    $this->deleteLocalImageFile($event);
+    $this->updateImageResource($event);
+}
+{{< /highlight >}}
+
+Due to the simple dependency injection, this implementation is easy to test and
+maintain.
