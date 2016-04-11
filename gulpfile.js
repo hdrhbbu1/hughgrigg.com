@@ -71,27 +71,29 @@ gulp.task('watch', function() {
 });
 
 gulp.task('write-publish', ['style'], shell.task(
-  'rm -rf ./publish/*;' +
   'hugo --config=config.yaml --theme=2016 --destination=./publish/;'
 ));
 
-gulp.task('publish', [
-    'write-publish',
+gulp.task('prepare-publish', function(cb) {
+  return runSequence(
     'imagemin',
     'theme-imagemin',
+    'style',
     'write-publish',
-    'post-process-html'
-  ],
-  function() {
-    var publisher = awspublish.create({
-      params: {Bucket:'www.hughgrigg.com'}
-    });
-    var headers = {'Cache-Control':'max-age=315360000, no-transform, public'};
-    return gulp.src('./publish/**/*.*')
-      .pipe(awspublish.gzip())
-      .pipe(parallelize(publisher.publish(headers), 10))
-      .pipe(publisher.sync())
-      .pipe(publisher.cache())
-      .pipe(awspublish.reporter());
-  }
-);
+    'post-process-html',
+    cb
+  );
+});
+
+gulp.task('publish', ['prepare-publish'], function() {
+  var publisher = awspublish.create({
+    params: {Bucket:'www.hughgrigg.com'}
+  });
+  var headers = {'Cache-Control':'max-age=315360000, no-transform, public'};
+  return gulp.src('./publish/**/*.*')
+    .pipe(awspublish.gzip())
+    .pipe(parallelize(publisher.publish(headers), 10))
+    .pipe(publisher.sync())
+    .pipe(publisher.cache())
+    .pipe(awspublish.reporter());
+});
