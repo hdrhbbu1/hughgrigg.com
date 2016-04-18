@@ -2,12 +2,19 @@
 title: PHP's list() is asking for a class
 slug: php-list-asking-for-class
 date: 2016-04-17
+author: Hugh Grigg
+tech:
+ - OOP
+ - PHP
+ - PHP7
 ---
 
 PHP has a weird mechanism for achieving multiple return values with the `list`
 function. It lets you do things like this:
 
 ```php
+<?php
+
 function severalThings() {
 	return ['thing', 'another thing', 'one more thing'];
 }
@@ -18,10 +25,10 @@ list($foo, $bar, $foobar) = severalThings();
 This is quite commonly used in some codebases, but I think it's bad style.
 
 Firstly, because PHP doesn't offer a concrete way to let the user of a function
-know exactly what it's returning, it may not be clear exactly what you're
-getting from that array. The function could even not return an array at all, in
-which case trying to use `list` on its return value will silently set your
-variables to null.
+know exactly what it's returning, it may not be clear what you're getting from
+that array. The function could even not return an array at all, in which case
+trying to use `list` on its return value will silently set your variables to
+null.
 
 At least in PHP 7 we can now guarantee that the function will return an array,
 but we still can't be sure what the array contains or how many values it has.
