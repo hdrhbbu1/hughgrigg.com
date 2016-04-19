@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Path to the bash it configuration
-export BASH_IT="/home/work/.bash_it"
+export BASH_IT="$HOME/.bash_it"
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
@@ -31,10 +31,6 @@ source $BASH_IT/bash_it.sh
 
 export EDITOR=vim
 
-export PATH=$PATH:/home/work/Vagrant/lc/maker-frontend/app/node_modules/.bin
-
-alias suijici='cedict-shuffler ~/cedict_1_0_ts_utf-8_mdbg.txt'
-suijici
 
 alias mempass='shuf -n 3 /usr/share/dict/british-english | sed "s/./\u&/" | tr -cd "[A-Za-z]"; echo $(shuf -i0-999 -n 1)'
 
@@ -45,10 +41,18 @@ function saylang() {
 }
 
 
-export NVM_DIR="/home/work/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 alias urldecode='python -c "import sys, urllib as ul; \
 	    print ul.unquote_plus(sys.argv[1])"'
 
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/projects/go
+export PATH=$PATH:$GOPATH/bin
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 nvm use 5.0 > /dev/null
+
+
+alias suijici='cedict-shuffler ~/cedict_1_0_ts_utf-8_mdbg.txt'
+suijici
+
