@@ -4,6 +4,7 @@ slug: chinese-strftime
 author: Hugh Grigg
 date: 2016-04-05
 tech:
+ - bash
  - GNOME
  - Go
  - JavaScript
