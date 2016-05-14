@@ -5,6 +5,7 @@ date: 2016-03-19
 tech:
  - AWS
  - Beanstalkd
+ - Dependency injection
  - EC2
  - Imagick
  - Laravel
