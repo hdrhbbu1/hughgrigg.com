@@ -1,8 +1,9 @@
 blockquote {
   border-left: .5em solid lighten($text-colour, 65%);
-  font-family: 'Roboto', 'Droid Sans', sans-serif;
+  font-family: $title-font;
   font-size: 110%;
   font-style: italic;
+  font-weight: normal;
   line-height: 1.85;
   margin: auto;
   padding: .2em 0 .2em 1.7em;
