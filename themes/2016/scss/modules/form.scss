@@ -1,0 +1,19 @@
+form {
+	font-family: $title-font;
+}
+
+input {
+	background: #efefef;
+	border-radius: .23em;
+	border-width: 1px;
+	font-size: 105%;
+	padding: .5em;
+}
+
+button,
+input[type=submit] {
+	background: $brand-colour;
+	border-color: $brand-colour;
+	border-style: solid;
+	color: #fff;
+}
