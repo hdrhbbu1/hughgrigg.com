@@ -11,9 +11,11 @@
       {{ .FuzzyWordCount }} words (~{{ .ReadingTime }} minutes)
     </p>
 
+    {{ if isset .Params "topics" }}
     <p class="post-meta post-leader">
       Things I used to think, and possibly still do.
     </p>
+    {{ end }}
 
   </header>
 

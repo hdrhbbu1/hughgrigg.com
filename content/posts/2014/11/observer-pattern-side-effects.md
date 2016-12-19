@@ -7,6 +7,8 @@ tags:
 tech:
  - OOP
  - design patterns
+topics:
+ - Concepts
 ---
 
 The [observer pattern](https://en.wikipedia.org/wiki/Observer_pattern) is

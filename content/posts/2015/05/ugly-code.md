@@ -10,6 +10,8 @@ tags:
 tech:
  - Magento
  - PHP
+topics:
+ - Concepts
 ---
 
 Before I really got into development, I went through the entire archive of [Joel

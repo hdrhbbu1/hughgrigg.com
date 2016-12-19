@@ -4,6 +4,7 @@ slug: always-lint
 date: 2016-09-13
 author: Hugh Grigg
 topics:
+ - Concepts
  - linting
  - static analysis
 ---

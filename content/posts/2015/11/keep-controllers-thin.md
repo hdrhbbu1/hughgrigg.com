@@ -7,6 +7,8 @@ tech:
  - OOP
  - design patterns
  - HTTP
+topics:
+ - Concepts
 ---
 
 The world of professional web development is dominated by the [MVC
