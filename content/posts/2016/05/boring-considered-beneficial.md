@@ -4,6 +4,7 @@ slug: boring-considered-beneficial
 date: 2016-05-23
 author: Hugh Grigg
 topics:
+ - Concepts
  - Design
  - Design patterns
 ---

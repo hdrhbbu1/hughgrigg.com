@@ -4,6 +4,7 @@ slug: simplicity-is-a-skill
 date: 2016-10-23
 author: Hugh Grigg
 topics:
+ - Concepts
  - Design
 ---
 
