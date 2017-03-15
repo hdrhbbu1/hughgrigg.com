@@ -16,7 +16,7 @@
     background-color: $pastel-a;
 
     &:hover {
-      background-color: darken($pastel-a, 10%);
+      background-color: darken($pastel-a, $hover-darken);
     }
   }
 
@@ -24,15 +24,23 @@
     background-color: $pastel-b;
 
     &:hover {
-      background-color: darken($pastel-b, 10%);
+      background-color: darken($pastel-b, $hover-darken);
     }
   }
 
-  &:nth-child(3n+3) > a {
+  &:nth-child(3n+3) > .nav-link {
     background-color: $pastel-c;
 
     &:hover {
-      background-color: darken($pastel-c, 10%);
+      background-color: darken($pastel-c, $hover-darken);
+    }
+  }
+
+  &:nth-child(3n+4) > .nav-link {
+    background-color: $pastel-d;
+
+    &:hover {
+      background-color: darken($pastel-d, $hover-darken);
     }
   }
 }
