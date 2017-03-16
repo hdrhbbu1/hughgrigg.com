@@ -1,5 +1,21 @@
 ---
-title: Everything I Know
-slug: everything-i-know
-date: 2015-01-01
+title: "Everything I Know"
+slug: "everything-i-know"
+date: "2015-01-01"
+author_name: "Paul Jarvis"
+isbn13: "9781412916929"
+isbn10: "1412916925"
+title_latin: "Everything I Need to Know About Teaching . . . They Forgot to Tell Me!"
+publisher_text: "Corwin Press"
+dewey_normal: "371.1"
+summary: "The authors provide the new teacher with guidance and advice that is full of encouragement, humor, and practical ideas, all based on real first-year experiences."
+dewey_decimal: "371.1"
+publisher_name: "Corwin Press"
+book_id: "everything_i_need_to_know_about_teaching_they_forgot_to_tell"
+marc_enc_level: ""
+physical_description_text: "5.8x8.9x0.3; 0.3 lb; 104 pages"
+edition_info: "Paperback; 2006-01-24"
+publisher_id: "corwin_press"
+updated_at: "2017-03-18"
 ---
+

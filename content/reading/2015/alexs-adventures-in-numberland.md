@@ -1,5 +1,20 @@
 ---
-title: Alexs Adventures in  Numberland
-slug: alex's-adventures-in-numberland
-date: 2015-01-01
+title: "Alexs Adventures in  Numberland"
+slug: "alex's-adventures-in-numberland"
+date: "2015-01-01"
+language: "eng"
+author_name: "Alex Bellos"
+publisher_text: "London : Bloomsbury, 2010."
+title_latin: "Alex's adventures in numberland"
+isbn10: "0747597162"
+isbn13: "9780747597162"
+dewey_normal: "510"
+book_id: "alexs_adventures_in_numberland"
+publisher_name: "Bloomsbury"
+dewey_decimal: "510"
+edition_info: "(hbk.)"
+publisher_id: "bloomsbury"
+physical_description_text: "448p.: 24 cm."
+updated_at: "2017-03-18"
 ---
+

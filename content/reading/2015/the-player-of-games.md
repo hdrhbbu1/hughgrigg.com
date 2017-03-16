@@ -1,5 +1,20 @@
 ---
-title: The Player of Games
-slug: the-player-of-games
-date: 2015-01-01
+title: "The Player of Games"
+slug: "the-player-of-games"
+date: "2015-01-01"
+dewey_normal: "0"
+author_name: "Iain Banks"
+language: "eng"
+publisher_text: "London : Futura, 1989."
+title_latin: "player of games"
+isbn13: "9780708883099"
+isbn10: "0708883095"
+notes: "Fiction in English,. 1945- - Texts (BNB/PRECIS)"
+edition_info: "(pbk)"
+publisher_id: "futura"
+physical_description_text: "309 p. ; 20 cm."
+book_id: "the_player_of_games_a05"
+publisher_name: "Futura"
+updated_at: "2017-03-18"
 ---
+

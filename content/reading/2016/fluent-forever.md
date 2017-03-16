@@ -1,5 +1,25 @@
 ---
-title: Fluent Forever
-slug: fluent-forever
-date: 2016-01-01
+title: "Fluent Forever"
+slug: "fluent-forever"
+date: "2016-01-01"
+isbn13: "9780385348119"
+language: "eng"
+author_name: "Wyner, Gabriel"
+title_latin: "Fluent forever"
+publisher_text: "; Random House Inc"
+isbn10: "0385348118"
+title_long: "Fluent foreverhow to learn any language fast and never forget it"
+awards_text: "; "
+dewey_normal: "418.0071"
+book_id: "fluent_forever"
+summary: "Presents a series of techniques for acquiring a foreign language, including news ways of training the tongue for pronunciation, use of visual imagery for connecting sounds and spelling, and spaced-repetition methods for learning new vocabulary."
+publisher_name: "Random House Inc"
+dewey_decimal: "418.0071"
+notes: "Includes bibliographical references (pages 313-317) and index."
+edition_info: "First edition.; "
+publisher_id: "random_house_inc_a01"
+physical_description_text: "ix, 326 pages :"
+updated_at: "2017-03-18"
 ---
+
+

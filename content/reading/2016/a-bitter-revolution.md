@@ -1,5 +1,22 @@
 ---
-title: A Bitter Revolution
-slug: a-bitter-revolution
-date: 2016-01-01
+title: "A Bitter Revolution"
+slug: "a-bitter-revolution"
+date: "2016-01-01"
+lcc_number: "DS774"
+author_name: "Rana Mitter"
+dewey_normal: "951.06"
+title_long: "A bitter revolution: China's struggle with the modern world"
+isbn13: "9780192803412"
+isbn10: "0192803417"
+language: "eng"
+publisher_text: "Oxford ; Oxford University Press, 2004."
+title_latin: "A bitter revolution"
+physical_description_text: "xix, 357 p. : ill. ; 25 cm."
+notes: "Includes bibliographical references and index."
+publisher_id: "oxford_university_press"
+publisher_name: "Oxford University Press"
+dewey_decimal: "951.06"
+book_id: "a_bitter_revolution"
+updated_at: "2017-03-18"
 ---
+

@@ -1,5 +1,20 @@
 ---
-title: Thinking Statistically
-slug: thinking-statistically
-date: 2015-01-01
+title: "Thinking Statistically"
+slug: "thinking-statistically"
+date: "2015-01-01"
+author_name: "Uri Bram"
+book_id: "thinking_statistically_a01"
+publisher_name: "CreateSpace Independent Publishing Platform"
+summary: "The paperback printing of Thinking Statistically includes all the material from the Kindle original plus innovative new segments giving graphical representations of statistics concepts. Thinking Statistically is the book that shows you how to think like a statistician, without worrying about formal statistical techniques. Along the way we learn how selection bias can explain why your boss doesn�t know he sucks (even when everyone else does); how to use Bayes� Theorem to decide if your partner is cheating on you; and why Mark Zuckerberg should never be used as an example for anything. See the world in a whole new light, and make better decisions and judgements without ever going near a t-test. Think. Think Statistically."
+edition_info: "Paperback; 2012-01-28"
+publisher_id: "createspace_independent_publis"
+marc_enc_level: ""
+physical_description_text: "5.8x8.8x0.3; 0.2 lb; 54 pages"
+title_latin: "Thinking Statistically"
+publisher_text: "CreateSpace Independent Publishing Platform"
+isbn10: "1469912333"
+isbn13: "9781469912332"
+dewey_normal: "0"
+updated_at: "2017-03-18"
 ---
+

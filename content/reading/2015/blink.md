@@ -1,5 +1,20 @@
 ---
-title: Blink
-slug: blink
-date: 2015-01-01
+title: "Blink: The Power of Thinking Without Thinking"
+slug: "blink"
+date: "2015-01-01"
+author_name: "Malcolm Gladwell"
+isbn13: "9780141014593"
+marc_enc_level: ""
+physical_description_text: "288 pages"
+edition_info: "Paperback; 2006-02-23"
+publisher_id: "penguin"
+summary: "Blink is about the first two seconds of looking--the decisive glance that knows in an instant. Gladwell, the best-selling author of The Tipping Point, campaigns for snap judgments and mind reading with a gift for translating research into splendid storytelling. Building his case with scenes from a marriage, heart attack triage, speed dating, choking on the golf course, selling cars, and military maneuvers, he persuades readers to think small and focus on the meaning of thin slices of behavior. The key is to rely on our adaptive unconscious--a 24/7 mental valet--that provides us with instant and sophisticated information to warn of danger, read a stranger, or react to a new idea. Gladwell includes caveats about leaping to conclusions: marketers can manipulate our first impressions, high arousal moments make us mind blind, focusing on the wrong cue leaves us vulnerable to the Warren Harding Effect (i.e., voting for a handsome but hapless president). In a provocative chapter that exposes the dark side of blink, he illuminates the failure of rapid cognition in the tragic stakeout and murder of Amadou Diallo in the Bronx. He underlines studies about autism, facial reading and cardio uptick to urge training that enhances high-stakes decision-making. In this brilliant, cage-rattling book, one can only wish for a thicker slice of Gladwell's ideas about what Blink Camp might look like. --Barbara Mackoff"
+publisher_name: "Penguin"
+book_id: "blink_a09"
+dewey_normal: "0"
+isbn10: "0141014598"
+title_latin: "Blink"
+publisher_text: "Penguin"
+updated_at: "2017-03-18"
 ---
+

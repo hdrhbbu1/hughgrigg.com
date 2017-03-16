@@ -1,5 +1,21 @@
 ---
 title: "Effective Programming: More Than Writing Code"
-slug: effective-programming-more-than-writing-code
-date: 2015-01-01
+slug: "effective-programming-more-than-writing-code"
+date: "2015-01-01"
+title_long: "Effective Programming: More Than Writing Code"
+author_name: "Jeff Atwood"
+dewey_normal: "0"
+isbn10: "147830054X"
+isbn13: "9781478300540"
+publisher_text: "CreateSpace Independent Publishing Platform"
+title_latin: "Effective Programming"
+physical_description_text: "8.5x10.9x0.9; 1.7 lb; 278 pages"
+marc_enc_level: ""
+publisher_id: "createspace_independent_publis"
+edition_info: "Paperback; 2012-07-04"
+publisher_name: "CreateSpace Independent Publishing Platform"
+summary: "ABOUT THE BOOK Jeff Atwood began the Coding Horror blog in 2004, and is convinced that it changed his life. He needed a way to keep track of software development over time - whatever he was thinking about or working on. He researched subjects he found interesting, then documented his research with a public blog post, which he could easily find and refer to later. Over time, increasing numbers of blog visitors found the posts helpful, relevant and interesting. Now, approximately 100,000 readers visit the blog per day and nearly as many comment and interact on the site. Effective Programming: More Than Writing Code is your one-stop shop for all things programming. Jeff writes with humor and understanding, allowing for both seasoned programmers and newbies to appreciate the depth of his research. From such posts as The Programmer's Bill of Rights and Why Cant Programmers... Program? to Working With the Chaos Monkey, this book introduces the importance of writing responsible code, the logistics involved, and how people should view it more as a lifestyle than a career. TABLE OF CONTENTS - Introduction - The Art of Getting Shit Done - Principles of Good Programming - Hiring Programmers the Right Way - Getting Your Team to Work Together - The Batcave: Effective Workspaces for Programmers - Designing With the User in Mind - Security Basics: Protecting Your Users' Data - Testing Your Code, So it Doesn't Suck More Than it Has To - Building, Managing and Benefiting from a Community - Marketing Weasels and How Not to Be One - Keeping Your Priorities Straight EXCERPT FROM THE BOOK As a software developer, you are your own worst enemy. The sooner you realize that, the better off you'll be.I know you have the best of intentions. We all do. We're software developers; we love writing code. It's what we do. We never met a problem we couldn't solve with some duct tape, a jury-rigged coat hanger and a pinch of code. But Wil Shipley argues that we should rein in our natural tendencies to write lots of code: The fundamental nature of coding is that our task, as programmers, is to recognize that every decision we make is a trade-off. To be a master programmer is to understand the nature of these trade-offs, and be conscious of them in everything we write.In coding, you have many dimensions in which you can rate code: Brevity of codeFeaturefulnessSpeed of executionTime spent codingRobustnessFlexibility Now, remember, these dimensions are all in opposition to one another. You can spend three days writing a routine which is really beautiful and fast, so you've gotten two of your dimensions up, but you've spent three days, so the time spent coding dimension is way down.So, when is this worth it? How do we make these decisions? The answer turns out to be very sane, very simple, and also the one nobody, ever, listens to: Start with brevity. Increase the other dimensions as required by testing. I couldn't agree more. I've given similar advice when I exhorted developers to Code Smaller. And I'm not talking about a reductio ad absurdum contest where we use up all the clever tricks in our books to make the code fit into less physical space. I'm talking about practical, sensible strategies to reduce the volume of code an individual programmer has to read to understand how a program works. Here's a trivial little example of what I'm talking about: if (s == String.Empty)if (s == ) It seems obvious to me that the latter case is... ...buy the book to read more!"
+book_id: "effective_programming"
+updated_at: "2017-03-18"
 ---
+

@@ -1,5 +1,22 @@
 ---
-title: Bash Cookbook
-slug: bash-cookbook
-date: 2015-01-01
+title: "Bash Cookbook"
+slug: "bash-cookbook"
+date: "2015-01-01"
+book_id: "bash_cookbook_solutions_and_examples_for_bash_users"
+author_name: "Carl Albing"
+dewey_decimal: "005.438"
+publisher_name: "O'Reilly"
+publisher_id: "oreilly"
+edition_info: "(pbk.)"
+notes: "Includes index."
+physical_description_text: "xxi, 598 p. : ill. ; 23 cm."
+publisher_text: "Farnham : O'Reilly, c2007."
+title_latin: "Bash cookbook"
+language: "eng"
+isbn10: "0596526784"
+isbn13: "9780596526788"
+lcc_number: "QA76.76"
+dewey_normal: "5.438"
+updated_at: "2017-03-18"
 ---
+

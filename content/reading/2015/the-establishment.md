@@ -1,5 +1,20 @@
 ---
-title: The Establishment
-slug: the-establishment
-date: 2015-01-01
+title: "The Establishment, and How They Get Away With It"
+slug: "the-establishment"
+date: "2015-01-01"
+author_name: "Owen Jones"
+dewey_normal: "0"
+isbn10: "061540300X"
+isbn13: "9780615403007"
+publisher_text: "Intrinsic Books"
+title_latin: "Why They Cheat and How They Get Away With It"
+physical_description_text: "5.5x8.4x0.6; 0.7 lb; 210 pages"
+marc_enc_level: ""
+publisher_id: "intrinsic_books"
+edition_info: "Paperback; 2011-01-18"
+summary: "Why they cheat... Presidents, religious leaders, CEOs, school teachers, moms, dads, young, old...they all do it and it's all too common even in what many of us would consider 'great' relationships-but why? One recent survey showed that nearly 70% of respondents in self-described monogamous relationships have confessed they've either thought about cheating, have cheated, or are currently cheating...and their partner has no idea. In Why They Cheat and How They Get Away With It, J.L. Ford explains why almost every relationship is at risk and exposes that aspect of human nature that compels otherwise responsible men and women to act on the impulse to cheat-regardless of the personal or professional consequences."
+publisher_name: "Intrinsic Books"
+book_id: "why_they_cheat_and_how_they_get_away_with_it"
+updated_at: "2017-03-18"
 ---
+
