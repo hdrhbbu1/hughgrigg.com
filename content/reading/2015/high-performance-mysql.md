@@ -2,7 +2,6 @@
 title: "High Performance MySql"
 slug: "high-performance-mysql"
 date: "2015-01-01"
-tech: "MySQL,SQL"
 dewey_normal: "0"
 author_name: "Derek J. Balling"
 isbn10: "3897213885"

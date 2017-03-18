@@ -1,7 +1,7 @@
 ---
 title: Simple pipes with PHP generators
 slug: simple-pipes-php-generators
-date: 2016-11-23
+date: 2016-05-17
 author: Hugh Grigg
 tech:
  - bash
