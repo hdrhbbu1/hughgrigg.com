@@ -1,5 +1,20 @@
 ---
-title: The Trial
-slug: the-trial
-date: 2016-01-01
+title: "The Trial"
+slug: "the-trial"
+date: "2016-01-01"
+author_name: "Franz Kafka"
+publisher_id: "mandarin"
+edition_info: "Hardcover; 1994-05-16"
+physical_description_text: "4.6x7.1x1.1; 0.6 lb; 256 pages"
+marc_enc_level: ""
+book_id: "the_trial_a67"
+summary: "Kafka's classic novel of the terror state, in which profound unease and sinister uncertainty simmer beneath Joseph K.'s surface world of desperate normality and security. When arrested, he is spun into a panic and slowly, strangely, a helpless sense of guilt emerges in him."
+publisher_name: "Mandarin"
+dewey_normal: "0"
+title_latin: "The Trial"
+publisher_text: "Mandarin"
+isbn13: "9780749318574"
+isbn10: "0749318570"
+updated_at: "2017-03-18"
 ---
+

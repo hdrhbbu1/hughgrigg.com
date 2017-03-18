@@ -1,5 +1,21 @@
 ---
-title: David And Goliath
-slug: david-and-goliath
-date: 2015-01-01
+title: "David and Goliath"
+slug: "david-and-goliath"
+date: "2015-01-01"
+author_name: "Malcolm Gladwell"
+dewey_normal: "808"
+title_latin: "Malcolm Gladwell: Collected"
+publisher_text: "Little, Brown and Company"
+isbn13: "9780316123099"
+isbn10: "0316123099"
+edition_info: "Hardcover; 2011-11-01"
+publisher_id: "little_brown_and_company_a01"
+marc_enc_level: ""
+physical_description_text: "6.5x9.8x3.9; 5.5 lb; 768 pages"
+book_id: "malcolm_gladwell_collected"
+summary: "In the past decade, Malcolm Gladwell has written three books that have radically changed how we understand our world and ourselves: The Tipping Point, Blink, and Outliers. Regarded by many as the most gifted and influential author and journalist in America today, Gladwell's rare ability to connect with audiences of such varied interests has ensured that each title become a phenomenal bestseller with more than ten million copies in print combined. Now, Gladwell's landmark investigations into the world around us are collected together for the first time. Beautifully repackaged and redesigned, including for the first time illustrations throughout each book, MALCOLM GLADWELL: COMPLETE is a perfect treasury of prose and provocation for Gladwell fans old and new."
+publisher_name: "Little, Brown and Company"
+dewey_decimal: "808"
+updated_at: "2017-03-18"
 ---
+

@@ -11,10 +11,16 @@
   <article class="post-content">
   {{ range .Data.Pages.ByDate.Reverse.GroupByDate "2006" }}
     <h2>{{ .Key }}</h2>
-    <ul reversed class="article-card-list">
+    <ul class="article-card-list">
       {{ range .Pages }}
         <li>
-          <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .Title }}</a>
+          <a href="https://www.amazon.co.uk/s/?camp=1634&creative=6738&field-keywords={{ .Params.isbn13 }}&linkCode=ur2&rh=i:aps,k:{{ .Params.isbn13 }}&tag=easasistu-21&url=search-alias=aps"
+             title="{{ .LinkTitle }}">
+            {{ .Title }}
+            {{ if (isset .Params "author_name") }}
+              <small>({{ .Params.author_name }})</small>
+            {{ end }}
+          </a>
         </li>
       {{ end }}
     </ul>

@@ -1,5 +1,20 @@
 ---
-title: The Emperor Far Away
-slug: the-emperor-far-away
-date: 2015-01-01
+title: "The Emperor Far Away"
+slug: "the-emperor-far-away"
+date: "2015-01-01"
+summary: "For more than two thousand years, as capital of the powerful Nan Yue kingdom to its present position as the largest city in southern China, Canton has been one of Asia's most important commercial, political, and cultural centres. Arab merchants first arrived in the Tang dynasty, trading spices, amber, and ivory for silk, ceramics, and precious stones. During the eighteen century, for the next hundred years, it was the only port in China where the emperor allowed merchants from the West to do business. With trade came the interchange of ideas. Missionaries, educators, political leaders, and modernizers, Chinese and non-Chinese alike, all tapped Canton's energy in their efforts to direct the course of China's cultural and political development."
+author_name: "Valery Garret"
+publisher_name: "Marshall Cavendish Corp/Ccb"
+book_id: "heaven_is_high_the_emperor_far_away_a01"
+physical_description_text: "8.4x9.8x0.8; 2.4 lb; 224 pages"
+marc_enc_level: ""
+publisher_id: "marshall_cavendish_corp_ccb"
+edition_info: "Paperback; 2009-03-31"
+isbn13: "9789812618627"
+isbn10: "9812618627"
+publisher_text: "Marshall Cavendish Corp/Ccb"
+title_latin: "Heaven is High, the Emperor Far Away"
+dewey_normal: "0"
+updated_at: "2017-03-18"
 ---
+

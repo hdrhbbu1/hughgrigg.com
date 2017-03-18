@@ -1,5 +1,23 @@
 ---
-title: How to Stop Sucking and Be Awesome Instead
-slug: how-to-stop-sucking-and-be-awesome-instead
-date: 2015-01-01
+title: "How to Stop Sucking and Be Awesome Instead"
+slug: "how-to-stop-sucking-and-be-awesome-instead"
+date: "2015-01-01"
+author_name: "Jeff Atwood"
+title_long: "How to stop working and make a million pounds instead"
+awards_text: "; "
+dewey_normal: "658.1592"
+language: "eng"
+publisher_text: "Rotherham :; Streetwise Publications"
+title_latin: "How to stop working and make a million pounds instead"
+isbn10: "0954118723"
+isbn13: "9780954118723"
+edition_info: "; "
+publisher_id: "streetwise_publications"
+marc_enc_level: "a"
+physical_description_text: "148 p. ;"
+book_id: "how_to_stop_working_and_make_a_million_pounds_instead"
+dewey_decimal: "658.1592"
+publisher_name: "Streetwise Publications"
+updated_at: "2017-03-18"
 ---
+

@@ -1,5 +1,20 @@
 ---
-title: Budding Prospects
-slug: budding-prospects
-date: 2016-01-01
+title: "Budding Prospects"
+slug: "budding-prospects"
+date: "2016-01-01"
+author_name: "T C Boyle"
+book_id: "budding_prospects_a03"
+dewey_decimal: "813"
+publisher_name: "Granta Books"
+publisher_id: "granta_books"
+edition_info: "Paperback; 1998-02-19"
+physical_description_text: "326 pages"
+marc_enc_level: ""
+title_latin: "Budding Prospects"
+publisher_text: "Granta Books"
+isbn10: "1862071527"
+isbn13: "9781862071520"
+dewey_normal: "813"
+updated_at: "2017-03-18"
 ---
+

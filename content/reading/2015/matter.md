@@ -1,5 +1,21 @@
 ---
-title: Matter
-slug: matter
-date: 2015-01-01
+title: "Matter"
+slug: "matter"
+date: "2015-01-01"
+author_name: "Iain M Banks"
+book_id: "matter_a25"
+summary: "In a world renowned even within a galaxy full of wonders, a crime within a war. For one man it means a desperate flight, and a search for the one - maybe two - people who could clear his name. For his brother it means a life lived under constant threat of treachery and murder. And for their sister, even without knowing the full truth, it means returning to a place she'd thought abandoned forever.Only the sister is not what she once was; Djan Seriy Anaplian has changed almost beyond recognition to become an agent of the Culture's Special Circumstances section, charged with high-level interference in civilizations throughout the greater galaxy.Concealing her new identity - and her particular set of abilities - might be a dangerous strategy, however. In the world to which Anaplian returns, nothing is quite as it seems; and determining the appropriate level of interference in someone else's war is never a simple matter.MATTER is a novel of dazzling wit and serious purpose. An extraordinary feat of storytelling and breathtaking invention on a grand scale, it is a tour de force from a writer who has turned science fiction on its head."
+dewey_decimal: "813"
+publisher_name: "Orbit"
+edition_info: "Paperback; 2009-02-10"
+publisher_id: "orbit"
+marc_enc_level: ""
+physical_description_text: "5.5x8.2x1.7; 1.2 lb; 624 pages"
+title_latin: "Matter"
+publisher_text: "Orbit"
+isbn13: "9780316005371"
+isbn10: "0316005371"
+dewey_normal: "813"
+updated_at: "2017-03-18"
 ---
+

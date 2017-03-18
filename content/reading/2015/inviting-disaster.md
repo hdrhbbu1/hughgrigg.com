@@ -1,5 +1,21 @@
 ---
-title: Inviting Disaster
-slug: inviting-disaster
-date: 2015-01-01
+title: "Inviting Disaster"
+slug: "inviting-disaster"
+date: "2015-01-01"
+publisher_id: "harperbusiness"
+author_name: "James R. Chiles"
+marc_enc_level: "8"
+physical_description_text: "xiv, 368 p : ill."
+book_id: "inviting_disaster_a01"
+dewey_decimal: "363.1"
+publisher_name: "HarperBusiness"
+dewey_normal: "363.1"
+title_long: "Inviting disaster: lessons from the edge of technology"
+language: "eng"
+title_latin: "Inviting disaster"
+publisher_text: "New York : HarperBusiness, 2002"
+isbn13: "9780066620824"
+isbn10: "0066620821"
+updated_at: "2017-03-18"
 ---
+

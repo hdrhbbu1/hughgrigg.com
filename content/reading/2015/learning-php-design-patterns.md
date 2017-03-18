@@ -1,5 +1,21 @@
 ---
-title: Learning PHP Design Patterns
-slug: learning-php-design-patterns
-date: 2015-01-01
+title: "Learning PHP Design Patterns"
+slug: "learning-php-design-patterns"
+date: "2015-01-01"
+marc_enc_level: ""
+author_name: "William Sanders"
+physical_description_text: "5.9x9.8x0.6; 1.5 lb; 350 pages"
+edition_info: "Paperback; 2013-02-22"
+publisher_id: "oreilly_media"
+dewey_decimal: "005"
+summary: "With the design patterns in this book, you�ll be able to build PHP applications much more efficiently. Learning PHP Design Patterns shows you how to use patterns through simple examples, and then demonstrates many of them in full-fledged working applications. You�ll learn patterns that help you connect PHP and MySQL, as well as several pattern categories that encapsulate object-oriented programming practices and concepts, such as polymorphism.These patterns allow you to adopt a more sophisticated programming style, focusing on language improvements introduced in PHP 5. You�ll also learn patterns that help you avoid common programming problems."
+publisher_name: "O'Reilly Media"
+book_id: "learning_php_design_patterns"
+dewey_normal: "5"
+isbn10: "1449344917"
+isbn13: "9781449344917"
+publisher_text: "O'Reilly Media"
+title_latin: "Learning PHP Design Patterns"
+updated_at: "2017-03-18"
 ---
+

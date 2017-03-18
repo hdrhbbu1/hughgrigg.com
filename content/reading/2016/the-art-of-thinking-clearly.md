@@ -1,5 +1,21 @@
 ---
-title: The Art of Thinking Clearly
-slug: the-art-of-thinking-clearly
-date: 2016-01-01
+title: "The Art of Thinking Clearly"
+slug: "the-art-of-thinking-clearly"
+date: "2016-01-01"
+isbn13: "9780910407472"
+author_name: "Peter Ivy"
+isbn10: "0910407479"
+title_latin: "Clearly Thinking"
+publisher_text: "Museum"
+dewey_normal: "748.092273"
+title_long: "Clearly Thinking: The Sculpture of Peter Ivy and Michael Scheiner, April 12-August 11, 2002, Phoenix Art Museum"
+dewey_decimal: "748.092273"
+publisher_name: "Museum"
+book_id: "clearly_thinking"
+marc_enc_level: ""
+physical_description_text: "24 pages"
+edition_info: "Paperback; 2002-03"
+publisher_id: "museum"
+updated_at: "2017-03-18"
 ---
+

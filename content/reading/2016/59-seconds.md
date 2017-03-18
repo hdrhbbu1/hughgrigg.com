@@ -1,5 +1,22 @@
 ---
-title: 59 Seconds
-slug: 59-seconds
-date: 2016-01-01
+title: "59 Seconds"
+slug: "59-seconds"
+date: "2016-01-01"
+author_name: "Richard Wiseman"
+title_long: "59 Seconds: Think a Little, Change a Lot"
+dewey_normal: "158"
+isbn10: "0307273407"
+isbn13: "9780307273406"
+title_latin: "59 Seconds"
+publisher_text: "Knopf"
+marc_enc_level: ""
+physical_description_text: "336 pages"
+edition_info: "Hardcover; 2009-12-29"
+publisher_id: "knopf"
+dewey_decimal: "158"
+summary: "A psychologist and best-selling author gives us a myth-busting response to the self-help movement, with tips and tricks to improve your life that come straight from the scientific community.Richard Wiseman has been troubled by the realization that the self-help industry often promotes exercises that destroy motivation, damage relationships, and reduce creativity: the opposite of everything it promises. Now, in 59 Seconds, he fights back, bringing together the diverse scientific advice that can help you change your life in under a minute, and guides you toward becoming more decisive, more imaginative, more engaged, and altogether more happy.From mood to memory, persuasion to procrastination, resilience to relationships, Wiseman outlines the research supporting the new science of �rapid change� and, with clarity and infectious enthusiasm, describes how these quirky, sometimes counterintuitive techniques can be effortlessly incorporated into your everyday life. Or, as he likes to say: �Think a little, change a lot.�"
+publisher_name: "Knopf"
+book_id: "59_seconds_a02"
+updated_at: "2017-03-18"
 ---
+

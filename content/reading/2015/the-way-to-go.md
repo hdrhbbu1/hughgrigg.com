@@ -1,5 +1,22 @@
 ---
-title: The Way to Go
-slug: the-way-to-go
-date: 2015-01-01
+title: "The Way to Go"
+slug: "the-way-to-go"
+date: "2015-01-01"
+author_name: "Ivo Balbaert"
+summary: "This book provides the reader with a comprehensive overview of the new open source programming language Go (in its first stable and maintained release Go 1) from Google. The language is devised with Java / C#-like syntax so as to feel familiar to the bulk of programmers today, but Go code is much cleaner and simpler to read, thus increasing the productivity of developers. You will see how Go: simplifies programming with slices, maps, structs and interfaces incorporates functional programming makes error-handling easy and secure simplifies concurrent and parallel programming with goroutines and channels And you will learn how to: make use of Go's excellent standard library program Go the idiomatic way using patterns and best practices in over 225 working examples and 135 exercises This book focuses on the aspects that the reader needs to take part in the coming software revolution using Go."
+publisher_name: "iUniverse"
+dewey_decimal: "005"
+book_id: "the_way_to_go_a03"
+physical_description_text: "7.5x9.2x1.3; 2.3 lb; 628 pages"
+marc_enc_level: ""
+publisher_id: "iuniverse"
+edition_info: "Paperback; 2012-03-08"
+isbn10: "1469769166"
+isbn13: "9781469769165"
+publisher_text: "iUniverse"
+title_latin: "The Way To Go"
+title_long: "The Way To Go: A Thorough Introduction To The Go Programming Language"
+dewey_normal: "5"
+updated_at: "2017-03-18"
 ---
+
