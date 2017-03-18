@@ -54,9 +54,9 @@ and a source of pride, and I think that's why a lot of them end up in codebases
 where a simpler solution would not just have sufficed but actually have been
 better.
 
-It's easy to let arguments for abstraction, future-proofing, good design and so
-on override the more fragile point that real simplicity is generally more
-valuable than those.
+It's easy to let arguments for abstraction, future-proofing, vaguely-defined
+"good design" and so on override the more fragile point that real simplicity is
+generally more valuable than those.
 
 Sometimes the simplest thing is to abstract, future-proof or generalise, but
 usually it is not. The simplest thing often seems embarrassingly

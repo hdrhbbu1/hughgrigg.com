@@ -12,9 +12,13 @@
     </p>
 
     {{ if isset .Params "topics" }}
-    <p class="post-meta post-leader">
-      Things I used to think, and possibly still do.
-    </p>
+      {{ if in .Params.topics "Learning" }}
+
+      {{ else }}
+        <p class="post-meta post-leader">
+          Things I used to think, and possibly still do.
+        </p>
+      {{ end }}
     {{ end }}
 
   </header>
