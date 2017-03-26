@@ -16,7 +16,7 @@ new learning journey by going through one of its subjects as properly as I can.
 
 The subject I've chosen is [Algorithms and Data
 Structures](https://teachyourselfcs.com/#algorithms), as I think that will be
-most interesting to be personally, and will have the most immediate practical
+most interesting to me personally, and will have the most immediate practical
 application in the kinds of things I like to do.
 
 I'm very grateful that the recommended lecture series, [Skiena's Algorithms
