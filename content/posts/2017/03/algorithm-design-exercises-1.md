@@ -1,6 +1,6 @@
 ---
-title: "Algorithm Design Exercises 1.7"
-slug: algorithm-design-1.7
+title: "Algorithm Design Exercises 1"
+slug: algorithm-design-1
 date: 2017-03-23
 topics:
  - Learning
@@ -126,3 +126,18 @@ the following set of sets:
 
 The optimal solution is $\\{S_4,S_5\\}$ with a size of 2, but this algorithm
 will select $\\{S_3,S_1,S_2\\}$ or $\\{S_3,S_1,S_5\\}$ each with a size of 3.
+
+## 1-26
+
+[Nearest neighbour demo](/code/adm/1/nearest-neighbour.go)
+
+## 1-28
+
+[1-28]({{< relref "algorithm-design-exercise-1-28.md" >}})
+
+## 1-29
+
+> There are 25 horses. At most, 5 horses can race together at a time. You must
+  determine the fastest, second fastest, and third fastest horses. Find the
+  minimum number of races in which this can be done.
+
