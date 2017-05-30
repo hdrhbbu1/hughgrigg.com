@@ -5,10 +5,12 @@
   "devDependencies": {
     "concurrent-transform": "^1.0.0",
     "es6-promise": "^3.1.2",
+    "front-matter": "^2.1.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-awspublish": "^3.0.1",
     "gulp-clean-css": "^2.0.4",
+    "gulp-cloudfront-invalidate": "^0.1.4",
     "gulp-filter": "^4.0.0",
     "gulp-htmlmin": "^1.3.0",
     "gulp-htmltidy": "^0.2.2",
@@ -23,13 +25,12 @@
     "gulp-watch": "^4.3.5",
     "imagemin-pngquant": "^4.2.2",
     "merge-stream": "^1.0.0",
+    "moment": "^2.17.1",
     "node-sass": "^3.4.2",
     "run-sequence": "^1.1.5",
-    "front-matter": "^2.1.2",
     "through2": "^2.0.3",
-    "vinyl": "^2.0.1",
     "unirest": "^0.5.1",
-    "moment": "^2.17.1"
+    "vinyl": "^2.0.1"
   },
   "dependencies": {
     "moment": "^2.17.1"
