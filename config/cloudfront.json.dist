@@ -1,0 +1,9 @@
+{
+  "distribution": "...",
+  "paths": [
+    "/index.html",
+    "/index.xml",
+    "/posts/index.html"
+  ],
+  "wait": false
+}

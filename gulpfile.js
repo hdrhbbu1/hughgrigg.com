@@ -1,12 +1,12 @@
-var gulp = require("gulp");
-var sass = require("gulp-sass");
+var gulp       = require("gulp");
+var sass       = require("gulp-sass");
 var sourceMaps = require("gulp-sourcemaps");
-var cleanCSS = require("gulp-clean-css");
+var cleanCSS   = require("gulp-clean-css");
 var autoPrefix = require("gulp-autoprefixer");
-var rev = require("gulp-rev");
+var rev        = require("gulp-rev");
 
 var htmlTidy = require("gulp-htmltidy");
-var htmlMin = require("gulp-htmlmin");
+var htmlMin  = require("gulp-htmlmin");
 
 var imageMin = require("gulp-imagemin");
 var pngQuant = require("imagemin-pngquant");
@@ -17,7 +17,8 @@ var runSequence = require("run-sequence");
 
 var shell = require("gulp-shell");
 
-var awsPublish = require("gulp-awspublish");
+var awsPublish  = require("gulp-awspublish");
+var cloudfront  = require("gulp-cloudfront-invalidate");
 var parallelize = require("concurrent-transform");
 
 var updateReading = require("./tasks/gulp/update-reading");
@@ -45,11 +46,11 @@ gulp.task("post-process-html", function () {
 gulp.task("imageMin", function () {
     return gulp.src("./static/img/**/*.*")
         .pipe(imageMin({
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngQuant()],
+            progressive:       true,
+            svgoPlugins:       [{removeViewBox: false}],
+            use:               [pngQuant()],
             optimizationLevel: 7,
-            interlaced: true
+            interlaced:        true
         }))
         .pipe(gulp.dest("./static/img/"));
 });
@@ -57,11 +58,11 @@ gulp.task("imageMin", function () {
 gulp.task("theme-imageMin", function () {
     return gulp.src("./themes/2016/static/img/**/*.*")
         .pipe(imageMin({
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngQuant()],
+            progressive:       true,
+            svgoPlugins:       [{removeViewBox: false}],
+            use:               [pngQuant()],
             optimizationLevel: 7,
-            interlaced: true
+            interlaced:        true
         }))
         .pipe(gulp.dest("./themes/2016/static/img/"));
 });
@@ -97,8 +98,9 @@ gulp.task("publish", ["prepare-publish"], function () {
     var publisher = awsPublish.create({
         params: {Bucket: "www.hughgrigg.com"}
     });
-    var headers = {"Cache-Control": "max-age=315360000, no-transform, public"};
+    var headers   = {"Cache-Control": "max-age=315360000, no-transform, public"};
     return gulp.src("./publish/**/*.*")
+        .pipe(cloudfront(require("./config/cloudfront.json")))
         .pipe(awsPublish.gzip())
         .pipe(parallelize(publisher.publish(headers), 10))
         .pipe(publisher.sync())

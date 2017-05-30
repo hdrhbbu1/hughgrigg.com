@@ -1,7 +1,7 @@
 ---
 title: Survivorship Thinking
 slug: survivorship-thinking
-date: 2017-04-23
+date: 2017-05-23
 author: Hugh Grigg
 topics:
  - Concepts
