@@ -8,7 +8,7 @@
 
     <p class="post-meta">
       {{ .Date.Format "2006-01-02 (Monday)" }} |
-      {{ .FuzzyWordCount }} words (~{{ .ReadingTime }} minutes)
+      {{ .FuzzyWordCount }} words (~{{ .ReadingTime }} minutes reading)
     </p>
 
     {{ if isset .Params "topics" }}
