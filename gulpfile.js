@@ -100,10 +100,10 @@ gulp.task("publish", ["prepare-publish"], function () {
     });
     var headers   = {"Cache-Control": "max-age=315360000, no-transform, public"};
     return gulp.src("./publish/**/*.*")
-        .pipe(cloudfront(require("./config/cloudfront.json")))
         .pipe(awsPublish.gzip())
         .pipe(parallelize(publisher.publish(headers), 10))
         .pipe(publisher.sync())
         .pipe(publisher.cache())
-        .pipe(awsPublish.reporter());
+        .pipe(awsPublish.reporter())
+        .pipe(cloudfront(require("./config/cloudfront.json")));
 });
