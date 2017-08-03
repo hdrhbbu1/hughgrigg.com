@@ -61,3 +61,8 @@ generally more valuable than those.
 Sometimes the simplest thing is to abstract, future-proof or generalise, but
 usually it is not. The simplest thing often seems embarrassingly
 straightforward, and being able to embrace that is a skill in itself.
+
+Finally, here's a brilliant talk by Christin Gorman that relates to this:
+
+[How to make your code sustainable - what they don't teach you - Christin
+Gorman](https://vimeo.com/138774243)

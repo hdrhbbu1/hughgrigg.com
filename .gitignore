@@ -9,3 +9,5 @@ hughgrigg.com.sublime-workspace
 npm-debug.log
 .idea/
 cloudfront.json
+*.swp
+
