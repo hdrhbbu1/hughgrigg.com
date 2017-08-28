@@ -12,7 +12,11 @@
     </p>
 
     {{ if isset .Params "topics" }}
-      {{ if in .Params.topics "Learning" }}
+      {{ if in .Params.topics "Projects" }}
+        <p class="post-meta post-leader">
+          Things I've been working on.
+        </p>
+      {{ else if in .Params.topics "Learning" }}
         <p class="post-meta post-leader">
           Notes to myself.
         </p>
