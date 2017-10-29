@@ -1,0 +1,21 @@
+---
+title: "The Dispossessed"
+slug: "the-dispossessed"
+date: "2017-09-05"
+isbn10: "0785764038"
+author_name: "Ursula K. Le Guin"
+publisher_name: "Turtleback Books: A Division of Sanval"
+dewey_normal: "813.54"
+dewey_decimal: "813.54"
+isbn13: "9780785764038"
+title_latin: "The Dispossessed"
+marc_enc_level: ""
+publisher_text: "Turtleback Books: A Division of Sanval"
+physical_description_text: "4.4x7.0x1.3; 0.6 lb; 400 pages"
+publisher_id: "turtleback_books_a_division_of"
+book_id: "the_dispossessed_a24"
+summary: "Shevek, a brilliant physicist, decides to take action. he will seek answers, question the unquestionable, and attempt to tear down the walls of hatred that have isolated his planet of anarchists from the rest of the civilized universe. To do this dangerous task will mean giving up his family and possibly his life. Shevek must make the unprecedented journey to the utopian mother planet, Anarres, to challenge the complex structures of life and living, and ignite the fires of change."
+edition_info: "School & Library Binding; 1999-10"
+updated_at: "2017-10-31"
+---
+

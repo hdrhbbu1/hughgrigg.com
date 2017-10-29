@@ -1,0 +1,23 @@
+---
+title: "The Handmaid's Tale"
+slug: "the-handmaids-tale"
+date: "2016-08-05"
+physical_description_text: "293 p."
+author_name: "Atwood, Margaret Eleanor"
+publisher_text: "Toronto : McClelland & Stewart, c1986."
+title_latin: "handmaid's tale"
+marc_enc_level: ""
+isbn13: "9780770422639"
+dewey_decimal: "C813/.54"
+edition_info: "75289"
+publisher_id: "mcclelland_stewart"
+book_id: "the_handmaids_tale_a20"
+isbn10: "0770422632"
+publisher_name: "McClelland & Stewart"
+lcc_number: "PS8551"
+language: "eng"
+notes: "Historical notes: p. 281-293."
+dewey_normal: "813.54"
+updated_at: "2017-10-31"
+---
+
