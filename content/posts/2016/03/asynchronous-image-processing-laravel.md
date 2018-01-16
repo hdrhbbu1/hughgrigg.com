@@ -15,8 +15,8 @@ tech:
  - SQS
 ---
 
-A central feature in my side project [Ching Shop](https://github.com/hughgrigg
-/ching-shop) is the management of product images. In the first iteration, images
+A central feature in my side project [Pop Robin Cards](https://github.com/hughgrigg
+/poprobincards) is the management of product images. In the first iteration, images
 uploaded by the user were simply stored locally on disk and served by nginx.
 This approach works fine, but has some problems:
 

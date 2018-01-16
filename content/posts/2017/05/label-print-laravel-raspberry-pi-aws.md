@@ -14,8 +14,8 @@ tech:
 ---
 
 The most manual part of the e-commerce [side project](http://localhost:1313/work
-/ching-shop/) I run with my wife is shipping the orders. We get order
-notifications by [email and Telegram](https://github.com/hughgrigg/ching-shop/bl
+/poprobincards/) I run with my wife is shipping the orders. We get order
+notifications by [email and Telegram](https://github.com/hughgrigg/poprobincards/bl
 ob/a08850cbee203223db309965b6e264e7e951e693/app/Modules/Sales/Notifications/Staf
 fOrderNotification.php#L52), and have to:
 
@@ -58,7 +58,7 @@ would queue up the jobs correctly in production.
 
 ## Consuming print jobs
 
-A small [Python script](https://github.com/hughgrigg/ching-shop/blob/8d862db7ad1
+A small [Python script](https://github.com/hughgrigg/poprobincards/blob/8d862db7ad1
 a5bb48dbdfbf03e6b1516189b720c/infrastructure/printing/printer.py) listens for
 print jobs on either Beanstalkd or SQS.
 

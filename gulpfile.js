@@ -102,7 +102,6 @@ gulp.task("publish", ["prepare-publish"], function () {
     return gulp.src("./publish/**/*.*")
         .pipe(awsPublish.gzip())
         .pipe(parallelize(publisher.publish(headers), 10))
-        .pipe(publisher.sync())
         .pipe(publisher.cache())
         .pipe(awsPublish.reporter())
         .pipe(cloudfront(require("./config/cloudfront.json")));

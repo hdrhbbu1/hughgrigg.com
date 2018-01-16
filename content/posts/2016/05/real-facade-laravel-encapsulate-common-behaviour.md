@@ -15,12 +15,12 @@ tech:
  - Static analysis
 ---
 
-Whilst working on my side project [Ching Shop](https://www.ching-shop.com/)
-([source](https://github.com/hughgrigg/ching-shop)), one of the PHP-MD rules I
+Whilst working on my side project [Pop Robin Cards](https://www.poprobincards.co.uk/)
+([source](https://github.com/hughgrigg/poprobincards)), one of the PHP-MD rules I
 have configured flagged an issue:
 
 ```
-ching-shop/app/Http/Controllers/Staff/ProductController.php:53
+poprobincards/app/Http/Controllers/Staff/ProductController.php:53
 The method __construct has 6 parameters. Consider to reduce parameter number
 under 5.
 ```
